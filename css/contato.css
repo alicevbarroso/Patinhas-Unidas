@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:  lightblue;
+    padding: 20px;
+}
+body{
+    background-color: #DCDCDC;  
+}
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue ;
+    padding: 0;
+
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color:  lightblue;
+
+}
+
+.menu a:hover {
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+/* Estilo do formulário */
+
+#formulario {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+} 
+
+#formulario h2 {
+    text-align: center;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#formulario input[type="radio"] {
+    width: auto; /* Para evitar que o radio button ocupe 100% da largura */
+    margin-right: 5px; /* Espaço entre o botão e o texto */} 
+
+#formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#formulario button[type="reset"] {
+    background-color: #999;
+}
+
+#formulario button:hover {
+    background-color: #555;
+}
