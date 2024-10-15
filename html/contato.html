@@ -18,9 +18,28 @@
                 </ul>
         </nav>
         </header>
-        - formulário 
-        - nome da pessoa
-        - telefone
-        - id animal
+        <main>
+            <form action="formulario" id="formulario" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome"><br>
+                <p id="mensagem"></p>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email"><br>
+                <label for="celular">Celular:</label>
+                <input type="tel" name="celular" id="celular"><br>
+                <label for="animal">Selecione:</label>
+                <label for="gato">Gato 
+                <input type="radio" name="animal" id="gato"></label>
+                <label for="cachorro">Cachorro
+                <input type="radio" name="animal" id="cachorro"></label><br>
+                <label for="tipoAnimal">Qual animal você deseja adotar?</label>
+                <input type="text" name="tipoAnimal" id="tipoAnimal"><br>
+
+                <button type="submit" id="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+             
+            </form>
+        </main>
+        <script src="../js/contato.js"></script>
 </body>
 </html>
