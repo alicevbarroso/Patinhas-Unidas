@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patinhas Unidas</title> <link rel="icon" type="images/x-icon" href="../imagens/pata.png">
+    <title>Patinhas Unidas</title> <link rel="icon" type="image/x-icon" href="../imagens/pata.png">
     <link rel="stylesheet" href="../css/contato.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
         <nav>
+            <img src="../imagens/pu.png">
                 <ul class="menu">
                     <li><a href="home.html">Home</a></li>
                     <li><a href="adoção.html">Adoção</a></li>
@@ -20,22 +20,24 @@
                     <li><a href="doação.html">Doação</a></li>
                 </ul>
         </nav>
-        </header>
         <main>
             <form action="formulario" id="formulario" method="post">
+                <h1>Formulário para adoção:</h1><br><br>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome"><br>
-                <p id="mensagem"></p>
+                <p id="mensagemN"></p>
                 <label for="email">E-mail:</label>
                 <input type="email" name="email" id="email"><br>
+                <p id="mensagemE"></p>
                 <label for="celular">Celular:</label>
                 <input type="tel" name="celular" id="celular"><br>
+                <p id="mensagemC"></p>
                 <label for="animal">Selecione:</label>
                 <label for="gato">Gato 
                 <input type="radio" name="animal" id="gato"></label>
                 <label for="cachorro">Cachorro
                 <input type="radio" name="animal" id="cachorro"></label><br>
-                <label for="tipoAnimal">Qual animal você deseja adotar?</label>
+                <label for="tipoAnimal">Qual animal você deseja adotar?</label>  
                 <input type="text" name="tipoAnimal" id="tipoAnimal"><br>
 
                 <button type="submit" id="submit">Enviar</button>
@@ -43,8 +45,13 @@
              
             </form>
         </main>
+        <!-- - formulário 
+        - nome da pessoa
+        - telefone
+        - id animal -->
+        <script src="../js/contato.js"></script>
 
-     <footer>
+        <footer>
             <div id="rodape">
             <img src="../imagens/pu.png" id="logofooter">
             <ul id="redes">
@@ -53,6 +60,5 @@
             </ul>
             </div>
         </footer>
-     <script src="../js/contato.js"></script>
 </body>
 </html>
