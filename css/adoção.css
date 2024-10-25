@@ -10,18 +10,19 @@ nav {
     display: flex;
     align-items: center;
 }
-nav img{
+
+nav img {
     display: flex;
     align-items: center;
     margin-left:  60px;
-} 
-img{
     width: 300px;
     padding: 0;
 }
+
 body{
     background-color: rgb(218, 232, 237);   
 }
+
 .menu {
     list-style: none;
     display: flex;
@@ -29,7 +30,6 @@ body{
     background-color: #87CEEB ; 
     padding: 0;
     margin-left: 150px;
-
 }
 
 .menu li {
@@ -38,21 +38,101 @@ body{
 
 .menu a {
     text-decoration: none; 
-    color: rgb(85, 85, 207);   
+    color: #006BFF;  
     font-size: 25px;
     padding: 10px 20px;
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
-
 }
-
 
 .menu a:hover {
     background-color: lightpink;
     border-radius: 20px;
 }
 
-#bloco{
-    padding: 20px;
+h1, h2{
+    text-align: center;
+}
+
+div.galeriaCachorro {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 175px;
+}
+  
+div.galeriaCachorro img {
+    width: 100%;
+    height: auto;
+}
+
+div.galeriaGato {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 175px;
+}
+  
+div.galeriaGato img {
+    width: 100%;
+    height: auto;
+}
+  
+div.info {
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #87CEEB;
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+footer img{
+    display: flex;
+    margin-left: 60px;
+    border-radius: 100px;
+    width: 200px;
+    
+}
+
+#rodape{
+    display: flex;
+    align-items: center;
+}
+
+#rodape ul{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    margin-left: 50px;
+}
+
+#rodape li{
+    margin: 0 10px;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: #006BFF;   
+    font-size: 25px;        
+    padding: 0px 20px;
+    background-color:  #87CEEB;
+    position: relative;
+    font-family: "Bagel Fat One", cursive;
+}
+
+#rodape a:hover{
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+#redes{
+    list-style: none; 
 }
