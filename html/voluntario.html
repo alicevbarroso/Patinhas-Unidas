@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patinhas Unidas</title> <link rel="icon" type="images/x-icon" href="../imagens/pata.png">
+    <link rel="stylesheet" href="../css/voluntario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <img src="../imagens/pu.png">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="adoção.html">Adoção</a></li>
+                <li><a href="finaisfelizes.html">Finais Felizes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="voluntario.html">Seja voluntário</a></li>
+            </ul>
+    </nav>
+    <header>
+        <h1>Ama cachorrinhos e gatinhos? Já pensou em ser voluntário em um abrigo de animais?</h1><br>
+        <h3>Aqui no Abrigo Patinhas Unidas, recebemos voluntários para trabalhar conosco e deixar o dia dos nossos animaizinhos mais feliz.</h3><br>
+    </header>
+    <h3>Veja algumas experiências dos nossos voluntários:</h3>
+    <div class="voluntarios">
+        <div class="experiencias">
+            <img src="..\imagens\pamela-max.jpeg" width="200" height="200" alt="Pamela e Max"> 
+            <blockquote>
+                "Eu amo cachorrinhos e meu sonho é ter um. Mas meus pais e eu passamos a maior parte do dia fora de casa, então não dá pra ter um por enquanto. Sendo voluntária no Abrigo, eu aprendo como cuidar melhor dos bichinhos, e também brinco bastante com eles. Assim, quando eu tiver o meu, vou poder cuidar bem dele e ser uma boa tutora."
+                <cite>- Pamela</cite>, com o Max
+            </blockquote>
+        </div>
+        <div class="experiencias">
+            <img src="..\imagens\iasmin-sandy.jpeg" width="200" height="200" alt="Iasmin e Sandy"> 
+            <blockquote>
+                "Eu sempre amei animais, especialmente cachorros. E agora estou estudando para me tornar veterinária. Então ser voluntária no Abrigo me ajuda a colocar em prática um pouquinho do que eu aprendo em sala, enquanto ainda passo tempo com os bichinhos mais fofos."
+                <cite>- Iasmin</cite>, com a Sandy
+            </blockquote>
+        </div>
+        <div class="experiencias">
+            <img src="..\imagens\allan-hanna.jpeg" width="200" height="200" alt="Allan e Hanna"> 
+            <blockquote>
+                "Eu cresci com 3 cachorros, que tornaram minha infância muito mais divertida. Mas depois de casar, me mudei pra uma casa pequena, e não tinha condições de ter um animal. Então ser voluntário no Abrigo ajuda a matar um pouquinho a saudade de ter um bichinho enquanto eu ainda não posso ter o meu." 
+                <cite>- Allan</cite>, com a Hanna (que ele acabou adotando)
+            </blockquote>
+        </div>
+    </div>
+    <br><br>
+    <h3>Se você também quer ser voluntário, preencha o formulário abaixo e entraremos em contato com você.</h3>
+    <form action="formularioVoluntario" id="formularioVoluntario" method="post">
+        <h1>Quero ser voluntário!</h1><br><br>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br>
+        <p id="mensagemN"></p>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email"><br>
+        <p id="mensagemE"></p>
+        <label for="celular">Celular:</label>
+        <input type="tel" name="celular" id="celular"><br>
+        
+        <button type="submit" id="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form><br>
+    <script src="../js/voluntario.js"></script>
+    <footer>
+        <div id="rodape">
+            <img src="../imagens/pu.png" id="logofooter">
+            <ul id="redes">
+                <li><a href="">Email</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
