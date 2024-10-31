@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+nav {
+    background-color: #87CEEB;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(218, 232, 237);   
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #87CEEB ; 
+    padding: 0;
+    margin-left: 150px;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none; 
+    color: rgb(85, 85, 207);   
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color:  #87CEEB;
+    position: relative;
+    font-family: "Bagel Fat One", cursive;
+
+}
+
+.menu a:hover {
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+.voluntarios {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.experiencias {
+    background-color:aliceblue;
+    border: 1px ;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 20%;
+    text-align: justify;
+}
+
+.experiencias img {
+    width: 100%;
+    height: auto;
+}
+/* Estilo do formulário */
+#formularioVoluntario {
+    background-color: whitesmoke;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+} 
+
+#formularioVoluntario h2 {
+    text-align: center;
+}
+
+#formularioVoluntario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formularioVoluntario input[type="text"],
+#formularioVoluntario input[type="email"],
+#formularioVoluntario input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#formularioVoluntario input[type="radio"] {
+    width: auto; /* Para evitar que o radio button ocupe 100% da largura */
+    margin-right: 5px; /* Espaço entre o botão e o texto */} 
+
+#formularioVoluntario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#formularioVoluntario button[type="reset"] {
+    background-color: #999;
+}
+
+#formularioVoluntario button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #87CEEB;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+footer img {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 60px;
+    width: 300px;
+    padding: 0;
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+}
+
+#rodape ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    margin-left: 50px;
+}
+
+#rodape li {
+    margin: 0 10px;
+}
+
+#rodape a {
+    text-decoration: none;
+    color: rgb(85, 85, 207);   
+    font-size: 25px;        
+    padding: 10px 20px;
+    background-color:  #87CEEB;
+    position: relative;
+    font-family: "Bagel Fat One", cursive;
+}
+
+#rodape a:hover {
+    background-color: lightpink;
+    border-radius: 20px;
+}
+
+#redes {
+    list-style: none;
+}
+
+.menu a:hover {
+    background-color: lightpink;
+    border-radius: 20px;
+}
