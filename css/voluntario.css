@@ -6,29 +6,30 @@
   
 nav {
     background-color: #87CEEB;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     align-items: center;
 }
-
-nav img {
+nav img{
     display: flex;
     align-items: center;
-    width: 300px;
+    margin-left:  30px;
+} 
+img{
+    width: 250px;
     padding: 0;
 }
-
-body {
+body{
     background-color: rgb(218, 232, 237);   
 }
-
 .menu {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     background-color: #87CEEB ; 
     padding: 0;
-    margin-left: 150px;
+    padding-left: 200px;
+
 }
 
 .menu li {
@@ -37,15 +38,14 @@ body {
 
 .menu a {
     text-decoration: none; 
-    color: rgb(85, 85, 207);   
-    font-size: 25px;
+    color: #006BFF;   
+    font-size: 20px;
     padding: 10px 20px;
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
 
 }
-
 .menu a:hover {
     background-color: lightpink;
     border-radius: 20px;
@@ -54,7 +54,14 @@ body {
 h1, h3{
     text-align: center;
 }
-
+h1{
+    font-family: "Gochi Hand";
+    color: #006BFF;
+    padding-top: 25px;
+}
+h3{
+    color:#333;
+}
 .voluntarios {
     display: inline-flex;
     justify-content: space-around;
@@ -82,7 +89,7 @@ h1, h3{
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    max-width: 500px;
+    max-width: 800px;
     margin: auto;
     margin-top: 40px;
 } 
