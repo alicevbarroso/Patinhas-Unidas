@@ -14,7 +14,7 @@ nav img{
     display: flex;
     align-items: center;
     margin-left:  60px;
-}
+} 
 img{
     width: 300px;
     padding: 0;
@@ -37,8 +37,8 @@ body{
 }
 
 .menu a {
-    text-decoration: none;
-    color: rgb(85, 85, 207);   
+    text-decoration: none; 
+    color:#0668fd;   
     font-size: 25px;
     padding: 10px 20px;
     background-color:  #87CEEB;
@@ -46,40 +46,154 @@ body{
     font-family: "Bagel Fat One", cursive;
 
 }
+
+
 .menu a:hover {
     background-color: lightpink;
     border-radius: 20px;
 }
-#banner1{
-    display: flex;             
-    align-items: flex-start;        
-    padding: 20px 30px;  
 
-}
-#banner1texto{
-    width: 650px;
-    margin-left: 50px;
-    margin-top: 50px;
+#texto1 {
+    display: flex;
+    margin: 40px;
 }
 
-h1{
-    margin-bottom: 25px;
-    font-size: 35px;
+#banner {
+    width: 100%;
+    max-width: 700px;
+    margin-right: 20px;
+    border-radius: 10px;
 }
 
-p{
-    font-size: 20px;
+#texto {
+    max-width: 500px;
+    font-size: 40px;
+    font-family: "Gochi Hand", cursive;
 }
 
-#banner1img{
-    margin-top: 40px;
-    border-style:ridge;
-    border-color: #87CEEB;
-    width: 500px;
-    margin-left: 200px;
-    margin-right: 40px;
+#banner1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-#banner1img img{
+
+#banner1texto {
+    width: 600px;
+    font-family: "Gochi Hand", cursive;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #87CEEB;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+#banner1img {
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#banner1img img {
     width: 100%;
     height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    background-color: #87CEEB;
+    color: #fff;
+    margin-top: 50px;
+}
+#como-adotar {
+    background-color: #e6f7ff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+#como-adotar h2 {
+    font-family: "Gochi Hand", cursive;
+    color: #0668fd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adoption-steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.step {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    text-align: center;
+}
+
+.step h3 {
+    color: #0668fd;
+}
+
+#depoimentos {
+    background-color: #e6f7ff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
+#depoimentos h2 {
+    font-family: "Gochi Hand", cursive;
+    color: #0668fd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    color: #555;
+}
+
+.testimonial footer {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
 }
