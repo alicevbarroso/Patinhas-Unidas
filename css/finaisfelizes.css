@@ -6,30 +6,30 @@
   
 nav {
     background-color: #87CEEB;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     align-items: center;
 }
-
 nav img{
     display: flex;
     align-items: center;
-    margin-left:  60px;
-    width: 300px;
+    margin-left:  30px;
+} 
+img{
+    width: 250px;
     padding: 0;
 }
-
 body{
     background-color: rgb(218, 232, 237);   
 }
-
 .menu {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     background-color: #87CEEB ; 
     padding: 0;
-    margin-left: 150px;
+    padding-left: 200px;
+
 }
 
 .menu li {
@@ -39,13 +39,13 @@ body{
 .menu a {
     text-decoration: none; 
     color: #006BFF;   
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 20px;
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
-}
 
+}
 .menu a:hover {
     background-color: lightpink;
     border-radius: 20px;
@@ -79,21 +79,20 @@ footer{
     background-color: #87CEEB;
     margin-top: 40px;
     display: flex;
-    justify-content: flex-start;
     padding: 0;
 }
 
 footer img{
     display: flex;
     margin-left: 60px;
-    border-radius: 100px;
-    width: 200px;
+    width: 80px;
     
 }
 
 #rodape{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 #rodape ul{
@@ -112,7 +111,7 @@ footer img{
     text-decoration: none;
     color: #006BFF;   
     font-size: 25px;        
-    padding: 0px 20px;
+    padding: 0px 10px;
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
@@ -124,5 +123,14 @@ footer img{
 }
 
 #redes{
-    list-style: none; 
+    list-style: none;
+    inline-size: 500px;
 }
+#imgfooter{
+    width: 35px;
+}
+#pfooter{
+    color:#006BFF;
+    background-color: #87CEEB;
+    font-weight: bold;
+}   
