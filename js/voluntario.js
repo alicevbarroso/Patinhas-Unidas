@@ -1,5 +1,5 @@
 //validação nome
-const formularioVoluntario = document.getElementById("formulario");
+const formularioVoluntario = document.getElementById("formularioVoluntario");
 const nomeValidar = document.getElementById("nome");
 const mensagem = document.getElementById("mensagemN");
 
@@ -21,7 +21,7 @@ formularioVoluntario.addEventListener("submit", function(event){
 });   
 //fim validação nome 
 //validação email
-const formularioE = document.getElementById("formulario");
+const formularioE = document.getElementById("formularioVoluntario");
 const emailValidar = document.getElementById("email");
 const mensagemEmail = document.getElementById("mensagemE");
 
@@ -43,14 +43,14 @@ formularioVoluntario.addEventListener("submit", function(event){
 });
 //fim da validação do email
 
-const formularioC = document.getElementById("formulario");
+const formularioC = document.getElementById("formularioVolutario");
 const celularValidar = document.getElementById("celular");
 const mensagemC = document.getElementById("mensagemC"); 
 
 formularioVoluntario.addEventListener("submit", function(event) {
     event.preventDefault();
-    const telefoneValidar = celular.value;
-    if (telefoneValidar) {
+    const celularValidar = celular.value;
+    if (celularValidar) {
         // Expressão regular para validar o formato de telefone (pode ser ajustado conforme necessário)
         if (/^\(\d{2}\)\s\d{4,5}-\d{4}$/.test(telefoneValidar)) {
             mensagemC.textContent = "Número de telefone válido!";
