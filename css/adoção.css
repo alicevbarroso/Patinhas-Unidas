@@ -6,30 +6,30 @@
   
 nav {
     background-color: #87CEEB;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     align-items: center;
 }
-
-nav img {
+nav img{
     display: flex;
     align-items: center;
-    margin-left:  60px;
-    width: 300px;
+    margin-left:  30px;
+} 
+img{
+    width: 250px;
     padding: 0;
 }
-
 body{
     background-color: rgb(218, 232, 237);   
 }
-
 .menu {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     background-color: #87CEEB ; 
     padding: 0;
-    margin-left: 150px;
+    padding-left: 200px;
+
 }
 
 .menu li {
@@ -38,14 +38,14 @@ body{
 
 .menu a {
     text-decoration: none; 
-    color: #006BFF;  
-    font-size: 25px;
+    color: #006BFF;   
+    font-size: 20px;
     padding: 10px 20px;
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
-}
 
+}
 .menu a:hover {
     background-color: lightpink;
     border-radius: 20px;
@@ -53,6 +53,16 @@ body{
 
 h1, h2{
     text-align: center;
+}
+h1{
+    font-family: "Gochi Hand", cursive;
+    color: #006BFF;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    color: rgb(59, 57, 57);
+    padding-bottom: 15px;
 }
 
 div.galeriaCachorro {
@@ -83,6 +93,8 @@ div.info {
     padding: 15px;
     text-align: left;
     font-weight: bold;
+    color: #555;
+   
 }
 
 footer{
