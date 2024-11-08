@@ -10,18 +10,19 @@ nav {
     display: flex;
     align-items: center;
 }
+
 nav img{
     display: flex;
     align-items: center;
     margin-left:  30px;
-} 
-img{
     width: 250px;
     padding: 0;
 }
+
 body{
     background-color: rgb(218, 232, 237);   
 }
+
 .menu {
     list-style: none;
     display: flex;
@@ -29,7 +30,6 @@ body{
     background-color: #87CEEB ; 
     padding: 0;
     padding-left: 200px;
-
 }
 
 .menu li {
@@ -44,8 +44,8 @@ body{
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
-
 }
+
 .menu a:hover {
     background-color: lightpink;
     border-radius: 20px;
@@ -54,68 +54,56 @@ body{
 h1, h2{
     text-align: center;
 }
+
 h1{
     font-family: "Gochi Hand", cursive;
     color: #006BFF;
     padding-top: 15px;
     margin-bottom: 15px;
 }
+
 h2{
     color: rgb(59, 57, 57);
     padding-bottom: 15px;
 }
 
-div.galeriaCachorro {
+.galeriaCachorro, .galeriaGato{
     display: inline-block;
     margin: 5px;
     border: 1px solid #ccc;
     width: 175px;
 }
   
-div.galeriaCachorro img {
+.galeriaCachorro img, .galeriaGato img {
     width: 100%;
     height: auto;
 }
 
-div.galeriaGato {
-    display: inline-block;
-    margin: 5px;
-    border: 1px solid #ccc;
-    width: 175px;
-}
-  
-div.galeriaGato img {
-    width: 100%;
-    height: auto;
-}
-  
-div.info {
+.info {
     padding: 15px;
     text-align: left;
     font-weight: bold;
     color: #555;
-   
 }
 
 footer{
     background-color: #87CEEB;
     margin-top: 40px;
     display: flex;
-    justify-content: flex-start;
     padding: 0;
 }
 
 footer img{
     display: flex;
     margin-left: 60px;
-    border-radius: 100px;
-    width: 200px;
-    
+    width: 75px;
+    margin: 10px;    
 }
 
 #rodape{
     display: flex;
     align-items: center;
+    padding: 0;
 }
 
 #rodape ul{
@@ -123,7 +111,7 @@ footer img{
     padding: 0;
     margin: 0; 
     display: flex;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #rodape li{
@@ -133,8 +121,8 @@ footer img{
 #rodape a{
     text-decoration: none;
     color: #006BFF;   
-    font-size: 25px;        
-    padding: 0px 20px;
+    font-size: 20px;        
+    padding: 0px 10px;
     background-color:  #87CEEB;
     position: relative;
     font-family: "Bagel Fat One", cursive;
@@ -146,5 +134,20 @@ footer img{
 }
 
 #redes{
-    list-style: none; 
+    list-style: none;
+    display: flex;
+    align-items: center; 
+    margin-left: 20px;
+}
+
+#imgfooter{
+    width: 25px;
+    margin: 0;
+}
+
+#pfooter{
+    color:#006BFF;
+    background-color: #87CEEB;
+    font-weight: bolder;
+    margin-left: 400px;
 }
