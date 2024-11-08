@@ -1,6 +1,6 @@
 # Patinhas-Unidas
 
-Site para o Abrigo Patinhas Unidas, desenvolvido com o objetivo de conectar pessoas que querem adotar animais com oAbrigo.
+Site para o Abrigo Patinhas Unidas, desenvolvido com o objetivo de conectar pessoas que querem adotar animais com o Abrigo.
 Este site foi desenvolvido para a aula de Desenvolvimento Web em HTML5, CSS, Javascript e PHP. Foi desenvolvido pelas alunas Alice Vitória Nunes Barroso de Aguiar (Ciência da Computação) e Melyssa de Brito Canarin (Analise e Desenvolvimento de Sistemas).
 
 ##Tecnologias usadas:
