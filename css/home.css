@@ -9,6 +9,7 @@ nav {
     padding: 15px;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 nav img{
@@ -53,14 +54,17 @@ body{
 
 #texto1 {
     display: flex;
-    margin: 40px;
+    margin: 0;
+    position: relative;
+    width: 100%;
 }
 
 #banner {
     width: 100%;
-    max-width: 700px;
-    margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
+    display: block;
+    height: auto;
+    margin-top: 0;
 }
 
 #texto {
@@ -262,3 +266,190 @@ footer img{
     font-weight: bolder;
     margin-left: 400px;
 } 
+
+@media (max-width: 1024px) {
+    .menu {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    nav img {
+        width: 180px;
+        margin-left: 0;
+    }
+
+    footer img {
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    #pfooter {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #texto {
+        font-size: 30px;
+    }
+
+    #banner1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    #banner1texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    #banner1img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .adoption-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .testimonials {
+        padding: 0 20px;
+    }
+
+    .testimonial {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    #rodape ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rodape a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    #formularioVoluntario {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 8px;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .menu a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    #texto {
+        font-size: 28px;
+    }
+
+    #banner1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner1texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .adoption-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 90%;
+    }
+
+    #rodape ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rodape a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav img {
+        width: 120px;
+        margin: 10px 0;
+    }
+
+    .menu a {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    #texto {
+        font-size: 22px;
+    }
+
+    #banner1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner1texto {
+        width: 100%;
+        text-align: center;
+    }
+
+    .adoption-steps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 100%;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    #rodape ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rodape a {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    #formularioVoluntario {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
