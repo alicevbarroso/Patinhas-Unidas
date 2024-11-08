@@ -74,18 +74,22 @@ body{
 
 #formulario input[type="text"],
 #formulario input[type="email"],
-#formulario input[type="tel"] {
+#formulario input[type="tel"],
+#formulario input[list="cachorros"],
+#formulario input[list="gatos"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 
 #formulario input[type="radio"] {
-    width: auto; /* Para evitar que o radio button ocupe 100% da largura */
-    margin-right: 5px; /* Espaço entre o botão e o texto */} 
+    width: auto;
+    margin-right: 5px;
+} 
 
 #formulario button {
     width: 100%;
@@ -177,4 +181,118 @@ footer img{
     background-color: #87CEEB;
     font-weight: bolder;
     margin-left: 400px;
+}
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav img {
+        width: 150px; 
+        margin: 0 auto; 
+    }
+
+    .menu {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .menu a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    /* Estilização do formulário*/
+    #formulario {
+        width: 90%;
+        margin: 20px auto; 
+    }
+
+    #formulario input[type="text"],
+    #formulario input[type="email"],
+    #formulario input[type="tel"],
+    #formulario button {
+        font-size: 16px; 
+    }
+
+    /* Rodapé */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    footer img {
+        width: 50px; 
+        margin: 10px 0;
+    }
+
+    #rodape {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    #rodape ul {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #pfooter {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* Responsividade para telas até 480px (menores) */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    /* Formulário */
+    #formulario {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #formulario input[type="text"],
+    #formulario input[type="email"],
+    #formulario input[type="tel"],
+    #formulario button {
+        font-size: 14px; 
+    }
+
+
+    footer img {
+        width: 40px;
+    }
+
+    #rodape a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    #redes {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #pfooter {
+        font-size: 14px;
+    }
 }
