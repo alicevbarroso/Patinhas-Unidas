@@ -10,55 +10,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=DynaPuff:wght@400..700&family=Gochi+Hand&display=swap" rel="stylesheet">
 </head>
 <body>
-        <nav>
-            <img src="../imagens/pu.png">
-                <ul class="menu">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="adoção.html">Adoção</a></li>
-                    <li><a href="finaisfelizes.html">Finais Felizes</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="voluntario.html">Seja voluntário</a></li>
-                </ul>
-        </nav>
-        <main>
-            <form action="formulario" id="formulario" method="post">
-                <h1>Formulário para adoção:</h1><br><br>
-                <label for="nome">Nome:</label>
-                <input type="text" name="nome" id="nome"><br>
-                <p id="mensagemN"></p>
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email"><br>
-                <p id="mensagemE"></p>
-                <label for="celular">Celular:</label>
-                <input type="tel" name="celular" id="celular"><br>
-                <p id="mensagemC"></p>
-                <label for="animal">Selecione:</label>
-                <label for="gato">Gato 
-                <input type="radio" name="animal" id="gato"></label>
-                <label for="cachorro">Cachorro
-                <input type="radio" name="animal" id="cachorro"></label><br>
-                <label for="tipoAnimal">Qual animal você deseja adotar?</label>  
-                <input type="text" name="tipoAnimal" id="tipoAnimal"><br>
-
-                <button type="submit" id="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-             
-            </form>
-        </main>
-        <!-- - formulário 
-        - nome da pessoa
-        - telefone
-        - id animal -->
-        <script src="../js/contato.js"></script>
-
-        <footer>
-            <div id="rodape">
-            <img src="../imagens/patinhas3.jpg" id="logofooter">
-            <ul id="redes">
-                <li><a href="">Email</a></li>
-                <li><a href="">Instagram</a></li>
+    <nav>
+        <img src="../imagens/pu.png">
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="adoção.html">Adoção</a></li>
+                <li><a href="finaisfelizes.html">Finais Felizes</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="voluntario.html">Seja voluntário</a></li>
             </ul>
-            </div>
-        </footer>
+    </nav>
+    <main>
+        <form action="formulario" id="formulario" method="post">
+            <h1>Formulário para adoção:</h1><br><br>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"><br>
+            <p id="mensagemN"></p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email"><br>
+            <p id="mensagemE"></p>
+            <label for="celular">Celular:</label>
+            <input type="tel" name="celular" id="celular"><br>
+            <p id="mensagemC"></p>
+            <label for="animal">Selecione:</label>
+            <label for="cachorro">Cachorro
+            <input type="radio" name="animal" id="cachorro"></label>
+            <input list="cachorros" name="cachorros">
+            <datalist id="cachorros">
+                <option value="Brutinho">#001 - Brutinho</option>
+                <option value="Marrom">#002 - Marrom</option>
+                <option value="Tigresa">#003 - Tigresa</option>
+                <option value="Urso">#004 - Urso</option>
+                <option value="Max">#005 - Max</option>
+                <option value="Sandy">#006 - Sandy</option>
+                <option value="Lady">#007 - Lady</option>
+            </datalist>
+            <label for="gato">Gato
+            <input type="radio" name="animal" id="gato"></label>
+            <input list="gatos" name="gatos">
+            <datalist id="gatos">
+                <option value="Clara">#008 - Clara</option>
+                <option value="Francisco">#009 - Francisco</option>
+                <option value="Brownie">#010 - Brownie</option>
+                <option value="Oreo">#011 - Oreo</option>
+                <option value="Kira">#012 - Kira</option>
+                <option value="Luna">#013 - Luna</option>
+                <option value="Penelope">#014 - Penelope</option>
+            </datalist>
+
+            <button type="submit" id="submit">Enviar</button>
+            <button type="reset">Limpar</button>   
+        </form>
+    </main>
+    <script src="../js/contato.js"></script>
+    <footer>
+        <div id="rodape">
+            <img src="../imagens/patinhas2.png" id="logofooter">
+            <ul id="redes">
+                <img src="../imagens/instagram.png" id="imgfooter">
+                <li><a href="https://www.instagram.com/abrigopatinhasunidas?igsh=MWloYWN2cDQzbmFuNw==" target="_blank">Instagram</a></li>
+            </ul>
+            <p id="pfooter">&copy; Patinhas Unidas - Conectando pessoas e animais em busca de um lar.</p>
+        </div>
+    </footer>        
 </body>
 </html>
