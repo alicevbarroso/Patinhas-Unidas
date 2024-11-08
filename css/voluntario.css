@@ -86,7 +86,7 @@ h3{
     height: auto;
 }
 
-/* Estilo do formulário */
+/* Estilização do formulário */
 #formularioVoluntario {
     background-color: whitesmoke;
     padding: 20px;
@@ -119,8 +119,9 @@ h3{
 }
 
 #formularioVoluntario input[type="radio"] {
-    width: auto; /* Para evitar que o radio button ocupe 100% da largura */
-    margin-right: 5px; /* Espaço entre o botão e o texto */} 
+    width: auto;
+    margin-right: 5px;
+} 
 
 #formularioVoluntario button {
     width: 100%;
@@ -206,3 +207,135 @@ footer img{
     font-weight: bolder;
     margin-left: 400px;
 }   
+@media (max-width: 1024px) {
+    .menu {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    nav img {
+        width: 180px;
+        margin-left: 0;
+    }
+
+    footer img {
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    #pfooter {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .voluntarios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experiencias {
+        flex: 1 1 45%;
+    }
+
+    #formularioVoluntario {
+        max-width: 100%;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Menu em coluna */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 8px;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .menu a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .voluntarios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experiencias {
+        flex: 1 1 80%;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #rodape ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    #rodape a {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    #formularioVoluntario {
+        max-width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav img {
+        width: 120px;
+        margin: 10px 0;
+    }
+
+    .menu a {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .voluntarios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experiencias {
+        flex: 1 1 100%;
+        margin-bottom: 15px;
+    }
+
+    footer img {
+        width: 40px;
+        margin: 5px;
+    }
+
+    #pfooter {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #rodape ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    #formularioVoluntario {
+        padding: 15px;
+    }
+}
